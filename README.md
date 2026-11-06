@@ -2,7 +2,7 @@
 
 A collection of standalone MWIII / Warzone GSC modifications for offline and LAN play. Built with Atian COD Tools, designed to run on any MWIII client/modloader that loads compiled GSC after native scripts.
 
-## Noice's Better Warzone Bots
+## Noice's Better Warzone Bots [v31.9.10 DIAG]
 
 A full bot overhaul for Warzone, adding competent AI teammates and opponents to private matches and LAN lobbies.
 
