@@ -9,13 +9,21 @@ A full bot overhaul for Warzone, adding competent AI teammates and opponents to 
 ### Features
 
 **Bot behavior & combat**
-- Stick with the squad leader throughout the game, assisting in combat and survival, and only spread out when necessary. 
+- Stick with the squad leader throughout the game, assisting in combat and survival, and only spread out when necessary.
 - Run-and-gun bot personality
 - Enemy targeting and combat engagement
 - Boarding vehicles as passengers and actively gunning down threats.
 - Buyback station usage for eliminated teammates
 - Armor plate management and resupply
-- Cash collection (in all gamemodes) and banking (only in plunder)
+- Cash collection (Plunder-style modes by default; `noice_wz_cash_mode 2` enables it in any mode with an economy) and banking (only in Plunder)
+
+**Battle Royale Pacing (BR only)**
+- Matches build up like a real one: quiet while the circle is large, busier mid-game, chaotic late
+- Early circles: bots rarely hunt you, and only hear your gunfire from nearby (about 3,000 units)
+- Mid circles: one or two bots may hunt you, and your gunfire carries about 7,000 units
+- Late circles: two or three hunters, your gunfire is heard from anywhere, and bots hear each other 30% farther
+- Fewer bots (0-2 instead of 2-5) deliberately land next to you at the start
+- Not used in Plunder or Resurgence; turn off with `noice_wz_pacing 0`
 
 **Fake Banking**
 - Bots use the verified native direct Plunder bank function after a safe 2.5-second channel
@@ -24,7 +32,7 @@ A full bot overhaul for Warzone, adding competent AI teammates and opponents to 
 - Spare cash under 500 is not banked
 
 **Native Ping System**
-- Bots mark visible enemies and recent contacts on the tacmap
+- Bots mark visible enemies and recent contacts on the tacmap (enemy pings only; bots do not ping loot)
 - Humans can order same-team bots to move to tacmap marks
 - Player-mark order logging
 - Script-created pings expire automatically via configurable lifetimes:
@@ -32,8 +40,8 @@ A full bot overhaul for Warzone, adding competent AI teammates and opponents to 
   - Danger pings: 60 seconds
 
 **Armor Plate Sharing**
-- Bots provide spare armor plates to low-health human teammates
-- Bot verifies its own armor reserve decreased before declaring success
+- Bots hand spare armor plates directly to low-armor human teammates (up to 3 at a time, using the game's own give function)
+- Bot verifies its own armor reserve decreased before declaring success; if the hand-off fails, the plates go back to the bot
 - Bot keeps at least one plate for itself
 
 **Portability**
