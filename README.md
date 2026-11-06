@@ -63,7 +63,7 @@ A standalone fix for the broken offline Warzone Cash Drop crate interaction.
 
 # Installation
 
-- Put the compiled `.gscc` files obtained from the releases-page into `jupiter\Assets\Scripts\Custom\br`
+Put the compiled `.gscc` files obtained from the releases-page into `jupiter\Assets\Scripts\Custom\br`
 
 ## Portability
 No LUMEN-specific APIs; works with any MWIII client/modloader that loads Atian-compiled GSC after native scripts with equivalent namespace and path handling
