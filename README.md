@@ -60,6 +60,10 @@ A standalone fix for the broken offline Warzone Cash Drop crate interaction.
 - Falls back to direct cash credit if loot pile spawning fails
 - Configurable via `cashdrop_fix` and `cashdrop_piles` dvars
 
+# Installation
+
+- Put the compiled `.gscc` files obtained from the releases-page into `jupiter\Assets\Scripts\Custom\br`
+
 ## More to come
 
 This is an active project. Additional fixes and modifications are planned and will be released as standalone scripts.
