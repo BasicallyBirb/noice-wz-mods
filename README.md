@@ -44,9 +44,6 @@ A full bot overhaul for Warzone, adding competent AI teammates and opponents to 
 - Bot verifies its own armor reserve decreased before declaring success; if the hand-off fails, the plates go back to the bot
 - Bot keeps at least one plate for itself
 
-**Portability**
-- No LUMEN-specific APIs; works with any MWIII client/modloader that loads Atian-compiled GSC after native scripts with equivalent namespace and path handling
-
 ## Cash Drop Fix
 
 A standalone fix for the broken offline Warzone Cash Drop crate interaction.
@@ -63,6 +60,9 @@ A standalone fix for the broken offline Warzone Cash Drop crate interaction.
 # Installation
 
 - Put the compiled `.gscc` files obtained from the releases-page into `jupiter\Assets\Scripts\Custom\br`
+
+**Portability**
+- No LUMEN-specific APIs; works with any MWIII client/modloader that loads Atian-compiled GSC after native scripts with equivalent namespace and path handling
 
 ## More to come
 
