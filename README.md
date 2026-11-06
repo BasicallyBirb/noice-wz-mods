@@ -55,3 +55,8 @@ A standalone fix for the broken offline Warzone Cash Drop crate interaction.
 ## More to come
 
 This is an active project. Additional fixes and modifications are planned and will be released as standalone scripts.
+
+## Credits
+
+- **Activision** — for *Call of Duty: Modern Warfare III* and *Warzone*, the game these mods are built for.
+- **Atian**[https://github.com/ate47/atian-cod-tools] — for *Atian COD Tools* (the `acts.exe` GSC compiler and related tooling) used to compile these scripts.
