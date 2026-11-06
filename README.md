@@ -12,7 +12,7 @@ A full bot overhaul for Warzone, adding competent AI teammates and opponents to 
 - Stick with the squad leader throughout the game, assisting in combat and survival, and only spread out when necessary. 
 - Run-and-gun bot personality
 - Enemy targeting and combat engagement
-- Boarding vehicles as passengers
+- Boarding vehicles as passengers and actively gunning down threats.
 - Buyback station usage for eliminated teammates
 - Armor plate management and resupply
 - Cash collection (in all gamemodes) and banking (only in plunder)
