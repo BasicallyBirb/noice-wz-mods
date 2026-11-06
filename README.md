@@ -1,8 +1,12 @@
-# Noice Warzone Mods
+
+
+<img width="2736" height="912" alt="DkRGkCAI0eetx3n8VMt90jvEGl1IsmKnlZmUaorRcyQ" src="https://github.com/user-attachments/assets/0c302389-5a52-495f-9891-b6e2a0c19932" />
 
 A collection of standalone MWIII / Warzone GSC modifications for offline and LAN play. Built with Atian COD Tools, designed to run on any MWIII client/modloader that loads compiled GSC after native scripts.
 
 ## Noice's Better Warzone Bots [v31.9.10 DIAG]
+
+<img width="2172" height="724" alt="better_warzone_bots_banner" src="https://github.com/user-attachments/assets/551e277b-7680-4136-81f3-bff00b0f6d92" />
 
 A full bot overhaul for Warzone, adding competent AI teammates and opponents to private matches and LAN lobbies.
 
